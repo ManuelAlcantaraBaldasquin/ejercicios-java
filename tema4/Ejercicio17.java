@@ -11,6 +11,8 @@ public class Ejercicio17 {
 
     int n = Integer.parseInt(System.console().readLine());
 
-    System.out.println("La última cifra es " + (n % 10));
+    System.out.println("La última cifra es " + (n % 10)); 
   }
 }
+
+// también se puede hacer con math.abs (n) %10
