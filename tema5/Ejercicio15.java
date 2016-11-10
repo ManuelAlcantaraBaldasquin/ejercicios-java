@@ -10,7 +10,7 @@ public class Ejercicio15 {
   public static void main(String[] args) {
     
     System.out.print("base: ");
-    int base = Integer.parseInt(System.console().readLine());
+    double base = Double.parseDouble(System.console().readLine());
     
     System.out.print("exponente: ");
     int exponenteIntroducido = Integer.parseInt(System.console().readLine());
